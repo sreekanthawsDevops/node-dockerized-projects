@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent{
+        label "3.87.46.100"
+    }
     stages{
         stage("checkout"){
             steps{
